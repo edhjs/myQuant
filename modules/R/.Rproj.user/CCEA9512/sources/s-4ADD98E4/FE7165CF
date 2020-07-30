@@ -1,0 +1,24 @@
+{
+    "id": "FE7165CF",
+    "path": "~/quant_cookbook-master/07-bind_data.Rmd",
+    "project_path": null,
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1596019682712.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "cursorPosition": "260,24",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1590897174,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1590897174,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,24 @@
+{
+    "id": "1A2CBEE5",
+    "path": "~/quant_cookbook-master/08-data_analysis.Rmd",
+    "project_path": null,
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1596021097779.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "cursorPosition": "128,27",
+        "scrollLine": "116"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1590897174,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1590897174,
+    "read_only": false,
+    "read_only_alternatives": []
+}

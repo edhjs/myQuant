@@ -1,0 +1,68 @@
+{
+  "name": "myquant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "docker": "next build && docker build -t myquant ."
+  },
+  "next": {
+    "serverHandler": "./server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "next": "^9.4.4",
+    "passport": "^0.4.1",
+    "passport-oauth2": "^1.5.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sequelize": "^6.3.3",
+    "styled-components": "^5.1.0"
+  },
+  "babel": {
+    "env": {
+      "development": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "production": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": false
+            }
+          ]
+        ]
+      }
+    }
+  }
+}
