@@ -13,7 +13,7 @@
     "serverHandler": "./server.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "child_process": "^1.0.2",
     "config": "^3.3.1",
